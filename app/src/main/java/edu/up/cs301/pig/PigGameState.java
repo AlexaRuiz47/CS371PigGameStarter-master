@@ -1,4 +1,4 @@
-package edu.up.cs301;
+package edu.up.cs301.pig;
 
 import edu.up.cs301.game.infoMsg.GameState;
 
