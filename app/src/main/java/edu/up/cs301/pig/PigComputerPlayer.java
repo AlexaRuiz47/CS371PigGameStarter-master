@@ -36,13 +36,13 @@ public class PigComputerPlayer extends GameComputerPlayer {
                // is my turn
                double whatAction = Math.random();
                GameAction g;
-               if(whatAction < 0.5) {
-                   g = new PigRollAction(this);
-               } else {
-                   g= new PigHoldAction(this);
-               }
-               game.sendAction(g);
+           if(whatAction < 0.5) {
+               g = new PigRollAction(this);
+           } else {
+               g= new PigHoldAction(this);
            }
+           game.sendAction(g);
+       }
        }
     }//receiveInfo
 
